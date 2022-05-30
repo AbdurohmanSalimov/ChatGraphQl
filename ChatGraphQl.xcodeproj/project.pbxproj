@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0865856E2844D9470070E973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865856D2844D9470070E973 /* AppDelegate.swift */; };
-		086585702844D9470070E973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865856F2844D9470070E973 /* SceneDelegate.swift */; };
-		086585722844D9470070E973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086585712844D9470070E973 /* ViewController.swift */; };
-		086585752844D9470070E973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086585732844D9470070E973 /* Main.storyboard */; };
 		086585772844D9490070E973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086585762844D9490070E973 /* Assets.xcassets */; };
 		0865857A2844D9490070E973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086585782844D9490070E973 /* LaunchScreen.storyboard */; };
+		086585852844D9DA0070E973 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086585812844D9DA0070E973 /* LoginVC.xib */; };
+		086585862844D9DA0070E973 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086585822844D9DA0070E973 /* RegisterVC.swift */; };
+		086585872844D9DA0070E973 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086585832844D9DA0070E973 /* RegisterVC.xib */; };
+		086585882844D9DA0070E973 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086585842844D9DA0070E973 /* LoginVC.swift */; };
+		581116BC5ED36DB89A531A0B /* Pods_ChatGraphQl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC6571D28AC17AAAD2EB84E /* Pods_ChatGraphQl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0865856A2844D9470070E973 /* ChatGraphQl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGraphQl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0865856D2844D9470070E973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0865856F2844D9470070E973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		086585712844D9470070E973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		086585742844D9470070E973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		086585762844D9490070E973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		086585792844D9490070E973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0865857B2844D9490070E973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086585812844D9DA0070E973 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		086585822844D9DA0070E973 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		086585832844D9DA0070E973 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		086585842844D9DA0070E973 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8723F2EAB64ACED2AE5F7AEE /* Pods-ChatGraphQl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatGraphQl.release.xcconfig"; path = "Target Support Files/Pods-ChatGraphQl/Pods-ChatGraphQl.release.xcconfig"; sourceTree = "<group>"; };
+		8E6A1E0F15D3BC8E0A83BF23 /* Pods-ChatGraphQl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatGraphQl.debug.xcconfig"; path = "Target Support Files/Pods-ChatGraphQl/Pods-ChatGraphQl.debug.xcconfig"; sourceTree = "<group>"; };
+		AEC6571D28AC17AAAD2EB84E /* Pods_ChatGraphQl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatGraphQl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581116BC5ED36DB89A531A0B /* Pods_ChatGraphQl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				0865856C2844D9470070E973 /* ChatGraphQl */,
 				0865856B2844D9470070E973 /* Products */,
+				B67B080BFA114CFE0953CBB2 /* Pods */,
+				0E2F3A5A42E4E9687093E0FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +65,34 @@
 		0865856C2844D9470070E973 /* ChatGraphQl */ = {
 			isa = PBXGroup;
 			children = (
+				086585842844D9DA0070E973 /* LoginVC.swift */,
+				086585812844D9DA0070E973 /* LoginVC.xib */,
+				086585822844D9DA0070E973 /* RegisterVC.swift */,
+				086585832844D9DA0070E973 /* RegisterVC.xib */,
 				0865856D2844D9470070E973 /* AppDelegate.swift */,
-				0865856F2844D9470070E973 /* SceneDelegate.swift */,
-				086585712844D9470070E973 /* ViewController.swift */,
-				086585732844D9470070E973 /* Main.storyboard */,
 				086585762844D9490070E973 /* Assets.xcassets */,
 				086585782844D9490070E973 /* LaunchScreen.storyboard */,
 				0865857B2844D9490070E973 /* Info.plist */,
 			);
 			path = ChatGraphQl;
+			sourceTree = "<group>";
+		};
+		0E2F3A5A42E4E9687093E0FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEC6571D28AC17AAAD2EB84E /* Pods_ChatGraphQl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B67B080BFA114CFE0953CBB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E6A1E0F15D3BC8E0A83BF23 /* Pods-ChatGraphQl.debug.xcconfig */,
+				8723F2EAB64ACED2AE5F7AEE /* Pods-ChatGraphQl.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0865857E2844D9490070E973 /* Build configuration list for PBXNativeTarget "ChatGraphQl" */;
 			buildPhases = (
+				D1CCBF2AF80D5042B29F617D /* [CP] Check Pods Manifest.lock */,
 				086585662844D9470070E973 /* Sources */,
 				086585672844D9470070E973 /* Frameworks */,
 				086585682844D9470070E973 /* Resources */,
+				02D7F7964FED3DD5E724EE63 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +155,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086585852844D9DA0070E973 /* LoginVC.xib in Resources */,
+				086585872844D9DA0070E973 /* RegisterVC.xib in Resources */,
 				0865857A2844D9490070E973 /* LaunchScreen.storyboard in Resources */,
 				086585772844D9490070E973 /* Assets.xcassets in Resources */,
-				086585752844D9470070E973 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02D7F7964FED3DD5E724EE63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatGraphQl/Pods-ChatGraphQl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatGraphQl/Pods-ChatGraphQl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatGraphQl/Pods-ChatGraphQl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1CCBF2AF80D5042B29F617D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatGraphQl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		086585662844D9470070E973 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086585722844D9470070E973 /* ViewController.swift in Sources */,
 				0865856E2844D9470070E973 /* AppDelegate.swift in Sources */,
-				086585702844D9470070E973 /* SceneDelegate.swift in Sources */,
+				086585862844D9DA0070E973 /* RegisterVC.swift in Sources */,
+				086585882844D9DA0070E973 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		086585732844D9470070E973 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				086585742844D9470070E973 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		086585782844D9490070E973 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +347,7 @@
 		};
 		0865857F2844D9490070E973 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6A1E0F15D3BC8E0A83BF23 /* Pods-ChatGraphQl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +358,6 @@
 				INFOPLIST_FILE = ChatGraphQl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qwer.ChatGraphQl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatGraphQl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,6 +375,7 @@
 		};
 		086585802844D9490070E973 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8723F2EAB64ACED2AE5F7AEE /* Pods-ChatGraphQl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +386,6 @@
 				INFOPLIST_FILE = ChatGraphQl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +393,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qwer.ChatGraphQl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatGraphQl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
