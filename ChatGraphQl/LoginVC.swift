@@ -84,7 +84,7 @@ class LoginVC: UIViewController {
                                   
                                   loginUser(name: self.nameTf.text! , password: passwordTf.text!)
                                   
-                                  print("kiradi logindan keyin")
+                                  
                                   
                               })
                           }
@@ -102,7 +102,24 @@ class LoginVC: UIViewController {
     }
     
     func loginUser(name: String, password: String){
-      
+        Network.shared.apollo.perform(mutation: LoginMutation(userName: name, password: password)) {
+            result in
+            
+            switch result {
+            case .success(let resultGraphQl):
+                if let info = resultGraphQl.data {
+                   let vc = HomeVC()
+                    vc.modalPresentationStyle = .overFullScreen
+                    vc.modalTransitionStyle = .crossDissolve
+                    self.present(vc, animated: true)
+                
+                } else {
+                    print(resultGraphQl.errors)
+                }
+            case.failure(let errors):
+                print(errors)
+            }
+        }
     }
 }
 

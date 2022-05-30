@@ -39,6 +39,18 @@ class RegisterVC: UIViewController {
     }
     
     func registerUsername(name: String , password: String) {
-    
+        Network.shared.apollo.perform(mutation: RegistrationMutation(userName: name, password: password, deviceID: <#String#>) ) { result in
+            
+            switch result {
+            case .success(let resultGraphQL):
+                if let info = resultGraphQL.data?.signUp {
+                    print("signed up wit user id", info.id , "   and name", info.name)
+                } else {
+                    print { resultGraphQL.errors}
+                }
+            case .failure(let errors):
+                print(errors)
+            }
+        }
     }
 }

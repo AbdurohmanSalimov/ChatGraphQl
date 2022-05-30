@@ -1,0 +1,28 @@
+
+query FetchMessages {
+    messages {
+  user_id
+  message_id
+  message
+  name
+}
+}
+
+mutation Login($userName: String!, $password: String!){
+  login(userName: $userName, password: $password){
+    id
+  name
+  }
+}
+
+mutation Registration($userName: String!, $password: String!, $deviceID: String!){
+    signUp(userName: $userName, password: $password, deviceID: $deviceID ){
+    id
+  name
+  }
+}
+
+mutation WriteMessage($message: String!, $userID: Int!){
+      writeMessage(message: $message, userID: $userID)
+}
+ 
